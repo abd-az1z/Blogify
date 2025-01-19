@@ -1,0 +1,17 @@
+{
+  "name": "blogify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "npm --prefix blogifyfrontend start",
+    "start:backend": "npm --prefix blogifybackend run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react-router-dom": "^7.1.3"
+  }
+}

@@ -1,0 +1,54 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js dependencies
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories
+build/
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Testing
+coverage/
+
+# NPM/Yarn lock files
+package-lock.json
+yarn.lock
+
+# Frontend-specific
+public/static/
+public/*.hot-update.*
+.next/
+.nuxt/
+.sass-cache/
+out/
+.cache/
+.vite/
+
+# Git-specific
+*.rej
+*.patch
